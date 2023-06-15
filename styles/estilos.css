@@ -1,0 +1,356 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    background: black;
+    background-image: url("https://mohamedjellal.me/Estudis/back2.png");
+    background-color: #d6d6d6;
+}
+
+.icon-content {
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.icon-content img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+header {
+    background-color: rgb(80, 85, 144);
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+.container {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+
+
+}
+
+
+header nav ul li {
+    margin-top: 17%;
+    margin: 0 1em;
+    font-size: large;
+}
+
+header nav ul {
+    margin-top: -1.7%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav img {
+    margin-bottom: -14%;
+}
+
+
+img {
+    width: 100px;
+    margin-right: 90%;
+    margin-top: 1%
+}
+
+.flex {
+    display: flex;
+
+}
+
+.center {
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.card {
+    width: 400px;
+    height: 380px;
+    flex-direction: column;
+    background: radial-gradient(780px at 37.8% 100.3%, rgb(19, 55, 115) 2.2%, rgb(32, 7, 80) 20.2%, rgb(27, 88, 111) 58.6%, rgb(115, 88, 44) 75%, rgb(99, 19, 90) 89.6%, rgb(12, 51, 76) 96.1%);
+    border-radius: 25px;
+}
+
+.hyper {
+    flex-direction: column;
+    margin: 0%;
+}
+
+.html5 {
+    flex-direction: column;
+    margin: 0%;
+}
+
+.sub1 {
+    flex-direction: column;
+    margin: 0%;
+}
+
+.sub2 {
+    flex-direction: column;
+    margin: 0%;
+}
+
+
+
+.content {
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    color: #ffff;
+}
+
+
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#hero {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 2em;
+}
+
+#about {
+    margin-top: 0%;
+    background-color: rgb(80, 85, 144);
+    color: white;
+    font-size: medium;
+    margin-top: 0.2%;
+    margin-bottom: 8%;
+    font-size: large;
+}
+
+#hgame {
+    margin-bottom: -4%;
+    margin-top: -41%;
+}
+
+#games {
+    margin-bottom: 10%;
+    border: 5px solid rgb(255, 255, 255);
+    /* Gray border */
+    border-radius: 69px;
+    /* dyal jnab */
+    background-color: #5757ca;
+    /* dyal jnab */
+    padding: 30px;
+    /* dyal jnab */
+    margin-right: 1px;
+}
+
+section div h1 {
+    margin-top: -40%;
+    border-radius: 35px;
+    background-image: linear-gradient(to right, #4776E6 0%, #8E54E9 51%, #4776E6 100%);
+    color: #fff;
+    text-decoration: underline;
+    display: block;
+    padding: 0.4em;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 69px;
+}
+
+section div h2 {
+    margin-top: 40%;
+    margin-bottom: 10%;
+    font-size: medium;
+    border-radius: 35px;
+    background: linear-gradient(109.6deg, rgb(9, 9, 121) 11.2%, rgb(144, 6, 161) 53.7%, rgb(0, 212, 255) 100.2%);
+    color: #fff;
+    display: block;
+    padding: 1em;
+    border: 0.5px solid rgb(255, 255, 255);
+    border-radius: 69px;
+
+}
+
+section div h4 {
+    margin-top: 65%;
+
+}
+
+
+#Wiki {
+    margin-top: 100%;
+}
+
+
+#apps {
+    margin-bottom: 10%;
+    border: 5px solid rgb(255, 255, 255);
+    /* Gray border */
+    border-radius: 69px;
+    /* dyal jnab */
+    background-color: #5757ca;
+    /* dyal jnab */
+    padding: 30px;
+    /* dyal jnab */
+    margin-right: 1px;
+}
+
+#team {
+    margin-bottom: 10%;
+    border: 5px solid rgb(255, 255, 255);
+    /* Gray border */
+    border-radius: 69px;
+    /* dyal jnab */
+    background-color: #5757ca;
+    /* dyal jnab */
+    padding: 30px;
+    /* dyal jnab */
+    margin-right: 1px;
+}
+
+
+
+#card {
+    margin-bottom: 50%;
+}
+
+#hero p {
+    margin-bottom: 0;
+    padding: 0.5em;
+    font-size: large;
+}
+
+section {
+    padding: 2em;
+}
+
+
+footer {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 1.7em;
+    font-size: large;
+    text-decoration: underline;
+}
+
+footer a {
+    text-align: left;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 1px solid #ccc;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical
+        /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #564495;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #6747dc;
+}
+
+/* Add a background color and some padding around the form */
+.container1 {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-top: -1.5%;
+    margin-bottom: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+
+}
+
+.icon1 {
+    margin-right: 50%;
+    margin-left: 20%;
+}
+
+.icon2 {
+    margin-right: 70%;
+}
+
+.icon3 {
+    margin-right: 45%;
+}
+
+.icon4 {
+    margin-left: -30%;
+}
+
+.icon5 {
+    margin-right: 20%;
+}
+
+.icon6 {
+    margin-right: 50%;
+
+}
+
+#Pin {
+    height: 60px;
+    width: 60px;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    position: absolute;
+    cursor: pointer;
+    color: #fff;
+    line-height: 5.1rem;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -o-transition: .3s;
+    -ms-transition: .3s;
+    transition: .3s;
+    box-shadow: -0.5px 9px 13px #404040;
+}
+
+#Pin:hover {
+    margin-top: 40px;
+}
+
+
+html {
+    background-color: #eee;
+    background: url(http://www.wallsave.com/wallpapers/1920x1080/texrura-metal/1605475/texrura-metal-ios-linen-texture-grey-by-vegardhw-on-deviantart-1605475.jpg) no-repeat;
+}
